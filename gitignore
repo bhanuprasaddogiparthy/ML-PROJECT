@@ -1,0 +1,26 @@
+# HR_Data.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+ENV/
+env/
+
+# VSCode
+.vscode/
+
+# Streamlit
+.streamlit/logs/
+
+# Data / models (keep CSV, ignore temp)
+*.pkl
+!employee_attrition_pipeline.pkl
+
+# OS
+.DS_Store
+Thumbs.db
